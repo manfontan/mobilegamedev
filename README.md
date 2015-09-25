@@ -4,7 +4,7 @@ CoderDojo Mobile Game Development Course
 
 In this course we are going to create a game called Jumpy, it will should you now create a simple but awesome action game that will enable you create any mobile game you want.
 
-In this course we will show you how to get your first game buid in hours, on IPhone or Android devices.  T
+In this course we will show you how to get your first game buid in hours, on IPhone or Android devices.  Then its up to you to start creating and dont stop.
 
 Getting started with developing with mobile development is alot of fun is and in this project I will get up and running quickly so can start developing. 
 
