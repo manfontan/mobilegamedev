@@ -1,0 +1,35 @@
+body {
+    background: #00BFFF !important;
+}
+
+div.clouds {
+    padding-top: 100px;
+}
+
+div.cloud {
+    width: 200px;
+    height: 60px;
+    background: white;
+    border-radius: 200px;
+    position: relative;
+}
+
+div.cloud:before, div.cloud:after {
+    content: '';
+    position: absolute;
+    background: white;
+    width: 100px;
+    height: 80px;
+    top: -15px;
+    left: 10px;
+    border-radius: 100px;
+    transform: rotate(30deg);
+}
+
+div.cloud:after {
+    width: 120px;
+    height: 120px;
+    top: -55px;
+    left: auto;
+    right: 15px;
+}
