@@ -33,3 +33,34 @@ div.cloud:after {
     left: auto;
     right: 15px;
 }
+
+div.c1 {
+	top: 250px;
+	-webkit-animation: moveclouds 15s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 600px;}
+	100% {margin-left: -600px;}
+}
+
+div.ground {
+	background: #8a8360;
+	border-top: 5px solid #007A00;
+	position: absolute;
+	height: 30px;
+	bottom: 0px;
+	width: 100%;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
