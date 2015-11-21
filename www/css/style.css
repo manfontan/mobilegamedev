@@ -3,7 +3,9 @@ body {
 }
 
 div.clouds {
-    padding-top: 100px;
+    padding-top: 0px;
+    position: absolute;
+    
 }
 
 div.cloud {
@@ -33,3 +35,95 @@ div.cloud:after {
     left: auto;
     right: 15px;
 }
+
+div.c1 {
+	top: 250px;
+	-webkit-animation: moveclouds 15s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 600px;}
+	100% {margin-left: -600px;}
+}
+
+div.ground {
+	background: #8a8360;
+	border-top: 5px solid #007A00;
+	position: absolute;
+	height: 30px;
+	bottom: 0px;
+	width: 100%;
+}	
+
+div.c2 {
+	top: 0px;
+	-webkit-animation: moveclouds 3s linear infinite;
+}
+
+div.c3 {
+	top: 300px;
+	-webkit-animation: moveclouds 5s linear infinite;
+	background: pink;
+}
+
+div.c3:before, div.c3:after { 
+	background: pink;
+}
+
+div.c4 {
+	top: 100px;
+	-webkit-animation: moveclouds 10s linear infinite;
+	background: orange;
+}
+
+div.c4:before, div.c4:after { 
+	background: orange;
+}
+
+div.cylinder {
+	position: relative;
+	margin-bottom: 0px;
+	z-index: 100;
+	height: 320px;
+	bottom: 20%;
+	margin-left: 50%;
+}
+
+div.cylinder .middle {
+	width: 50px;
+	height: 250px;
+	background: #870000;
+	position: absolute;
+}
+
+div.cylinder .top {
+	width: 50px;
+	height: 30px;
+	background: #BD0000;
+	-webkit-border-radius: 30px / 15px;
+	position: absolute;
+	top: -10px;
+	z-index: 110;
+}
+
+div.cylinder .bottom {
+	width: 50px;
+	height: 40px;
+	background: #870000;
+	-webkit-border-radius: 30px / 15px;
+	position: absolute;
+	bottom: 40px;
+	box-shadow: 0px 0px 10px rdba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
