@@ -3,7 +3,9 @@ body {
 }
 
 div.clouds {
-    padding-top: 100px;
+    padding-top: 0px;
+    position: absolute;
+    
 }
 
 div.cloud {
